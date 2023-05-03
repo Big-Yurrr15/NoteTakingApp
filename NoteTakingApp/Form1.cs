@@ -33,7 +33,7 @@ namespace NoteTakingApp
                 vari.fileName = saveFileDialog.FileName;
                 File.WriteAllText(vari.fileName, vari.text);
                 label1.Text = vari.fileTextName;
-                MessageBox.Show("TEXT SAVED");
+                MessageBox.Show("Text Saved");
                 btnsaveit.Visible = true;
 
             }
@@ -77,7 +77,7 @@ namespace NoteTakingApp
             vari.text = richTextBox1.Text;
             File.WriteAllText(vari.fileName, vari.text);
             label1.Text = vari.fileTextName;
-            MessageBox.Show("TEXT SAVED");
+            MessageBox.Show("Text Saved");
         }
     }
 }
